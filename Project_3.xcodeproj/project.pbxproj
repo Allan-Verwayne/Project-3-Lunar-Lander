@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7C198D62AFA861C002AC9ED /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7C198D42AFA861C002AC9ED /* Entity.cpp */; };
+		B7C198DC2AFC1246002AC9ED /* sprites in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7C198D82AFADA82002AC9ED /* sprites */; };
 		DBDF1B532323DE3F007CECB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B522323DE3F007CECB1 /* main.cpp */; };
 		DBDF1B5E2323DE8D007CECB1 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */; };
 		DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBDF1B5C2323DE8D007CECB1 /* shaders */; };
@@ -26,6 +27,7 @@
 			dstSubfolderSpec = 6;
 			files = (
 				DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */,
+				B7C198DC2AFC1246002AC9ED /* sprites in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
