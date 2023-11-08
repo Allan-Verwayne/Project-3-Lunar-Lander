@@ -263,16 +263,16 @@ void process_input() {
     const Uint8* key_state = SDL_GetKeyboardState(NULL);
     if (game_state.player->get_active() == true) {
         if (key_state[SDL_SCANCODE_LEFT]) {
-            game_state.player->set_acceleration(glm::vec3(-0.1, 0.0f, 0.0f));
+            game_state.player->set_acceleration(glm::vec3(-0.15, 0.0f, 0.0f));
         }
         else if (key_state[SDL_SCANCODE_RIGHT]) {
-            game_state.player->set_acceleration(glm::vec3(0.1, 0.0f, 0.0f));
+            game_state.player->set_acceleration(glm::vec3(0.15, 0.0f, 0.0f));
         }
         else if (key_state[SDL_SCANCODE_DOWN]) {
-            game_state.player->set_acceleration(glm::vec3(0.0f,-0.1, 0.0f));
+            game_state.player->set_acceleration(glm::vec3(0.0f,-0.15, 0.0f));
         }
         else if (key_state[SDL_SCANCODE_UP]) {
-            game_state.player->set_acceleration(glm::vec3(0.0f, 0.1, 0.0f));
+            game_state.player->set_acceleration(glm::vec3(0.0f, 0.15, 0.0f));
         }
         else {
             game_state.player->set_acceleration(glm::vec3(0.0f, ACC_OF_GRAVITY * 0.01f, 0.0f));
